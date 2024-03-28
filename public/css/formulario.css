@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/tomorrowland-enchanting-stage-0i3rl6s17p1slkgi.webp'); 
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
